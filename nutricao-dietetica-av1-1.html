@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nutrição e Dietética • AV1</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f7f5;--ink:#17302b;--g:#14453d;--y:#f2c230;--card:#fff;--mut:#5c706b;--ok:#1d8a4e;--no:#c0392b;--line:#d4e0dc;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1a18;--ink:#e6f0ed;--g:#7fd1bd;--card:#172624;--mut:#9ab3ad;--line:#2a3f3b}}
+:root[data-theme="dark"]{--bg:#0f1a18;--ink:#e6f0ed;--g:#7fd1bd;--card:#172624;--mut:#9ab3ad;--line:#2a3f3b}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Bricolage Grotesque',system-ui,sans-serif;line-height:1.55}
+main{max-width:760px;margin:0 auto;padding:16px}
+h1{font-size:2rem;font-weight:800;margin:.4em 0 .1em;letter-spacing:-.02em}
+h2{font-size:1.2rem;margin:0 0 .5em}
+.sub{color:var(--mut);margin:0 0 16px}
+nav{display:flex;gap:6px;margin:12px 0;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);padding:6px 0;z-index:5}
+nav button{flex:1;padding:10px;border:2px solid var(--g);background:none;color:var(--g);font:600 .95rem inherit;font-family:inherit;border-radius:10px;cursor:pointer}
+nav button.on{background:var(--g);color:var(--bg)}
+button:focus-visible,summary:focus-visible,textarea:focus-visible{outline:3px solid var(--y);outline-offset:2px}
+section{display:none}section.on{display:block}
+details{background:var(--card);border:1px solid var(--line);border-radius:10px;margin:8px 0;padding:0 14px}
+summary{cursor:pointer;font-weight:600;padding:12px 0}
+details[open]{padding-bottom:8px}
+details p,details li{font-size:.95rem;margin:.4em 0}
+table{border-collapse:collapse;width:100%;font-size:.9rem;display:block;overflow-x:auto}
+td,th{border:1px solid var(--line);padding:5px 8px;text-align:left}
+code{background:var(--line);padding:1px 5px;border-radius:4px}
+.q{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--y);border-radius:10px;padding:14px;margin:14px 0}
+.q .src{font-size:.8rem;color:var(--mut)}
+.opt{display:block;width:100%;text-align:left;margin:6px 0;padding:10px 12px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:8px;font:inherit;cursor:pointer}
+.opt.right{border-color:var(--ok);background:rgba(29,138,78,.15)}
+.opt.wrong{border-color:var(--no);background:rgba(192,57,43,.15)}
+.exp{margin-top:8px;font-size:.9rem;color:var(--mut)}
+textarea{width:100%;min-height:80px;border:1.5px solid var(--line);border-radius:8px;padding:8px;font:inherit;background:var(--bg);color:var(--ink)}
+.btn{background:var(--g);color:var(--bg);border:0;border-radius:10px;padding:12px 18px;font:600 1rem inherit;font-family:inherit;cursor:pointer;margin:6px 6px 6px 0}
+.btn.alt{background:none;color:var(--g);border:2px solid var(--g)}
+.gab{background:rgba(242,194,48,.18);border-radius:8px;padding:10px;margin-top:8px;font-size:.92rem}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(80px,1fr));gap:8px;margin:0 0 14px}.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px;text-align:center}.stat b{display:block;font-size:1.4rem;color:var(--g)}.stat span{font-size:.78rem;color:var(--mut)}
+.big{font-size:2.6rem;font-weight:800;color:var(--g)}
+</style></head><body><main>
+<h1>Nutrição e Dietética</h1>
+<p class="sub">Preparação para a AV1 • conteúdo da professora e das monitoras</p>
+<nav><button class="on" data-t="est">Estudar</button><button data-t="sim">Simulado</button><button data-t="ban">Banco</button></nav>
+
+<section id="est" class="on">
+<details open><summary>Conceitos base</summary>
+<p><b>Alimentação:</b> ato voluntário de obter e consumir alimentos. <b>Nutrição:</b> processo involuntário (digestão, absorção, utilização, excreção). <b>Dieta:</b> alimentos habitualmente consumidos. <b>Dietética:</b> adaptar a alimentação às necessidades do indivíduo, na saúde e em condições especiais.</p>
+<p><b>Leis de Escudero:</b> Quantidade (cobrir o gasto e equilibrar o balanço), Qualidade (dieta completa), Harmonia (proporção entre nutrientes) e Adequação (adequada ao organismo).</p>
+<p><b>Alimentação saudável:</b> colorida, saborosa, harmônica, variada, acessível física e financeiramente e segura sanitariamente.</p></details>
+
+<details><summary>DRIs: EAR, RDA, AI e UL</summary>
+<table><tr><th>Sigla</th><th>Significado</th></tr>
+<tr><td>EAR</td><td>Atende à necessidade de 50% dos saudáveis do grupo</td></tr>
+<tr><td>RDA</td><td>Atende 97 a 98% dos saudáveis; base para prescrição individual</td></tr>
+<tr><td>AI</td><td>Usada quando não há evidência para EAR/RDA</td></tr>
+<tr><td>UL</td><td>Maior ingestão habitual sem risco de efeito adverso</td></tr></table>
+<p>Objetivos: prevenir deficiências, reduzir risco de DCNT e evitar toxicidade.</p></details>
+
+<details><summary>Gasto energético (GET)</summary>
+<p>GET = TMB + efeito térmico dos alimentos (5 a 10%) + atividade física (5% em sedentários, até 50% em atletas) + demandas de crescimento, gestação e lactação. A TMB é a maior fração (60 a 75%).</p>
+<p>Diminuem a TMB: idade avançada, menos massa magra. Aumentam: sexo masculino, febre, gestação, mais massa corporal.</p>
+<p>Balanço energético: ingestão maior que gasto = positivo; menor = negativo; igual = equilibrado.</p></details>
+
+<details><summary>Equações de VET (GET = TMB × fator de atividade)</summary>
+<table><tr><th>Equação</th><th>Homem</th><th>Mulher</th></tr>
+<tr><td>Harris-Benedict</td><td>66,5 + 13,8P + 5A − 6,8I</td><td>655,1 + 9,6P + 1,8A − 4,7I</td></tr>
+<tr><td>FAO/OMS 18-30 a (kcal)</td><td>15,057P + 692,2</td><td>14,818P + 486,6</td></tr>
+<tr><td>Schofield 18-30 a (×239)</td><td>(0,063P + 2,896)</td><td>(0,062P + 2,036)</td></tr>
+<tr><td>Schofield 30-60 a (×239)</td><td>(0,048P + 3,653)</td><td>(0,034P + 3,538)</td></tr>
+<tr><td>Henry &amp; Rees 30-60 a (×239)</td><td>(0,046P + 3,160)</td><td>-</td></tr>
+<tr><td>DRI 2023 (EER)</td><td>−517,88 − 10,83I + 15,61A + 19,11P</td><td>575,77 − 7,01I + 6,60A + 12,14P</td></tr></table>
+<p>P = peso (kg), A = altura (cm), I = idade (anos). Na aula, o Harris-Benedict foi multiplicado também por 1,1 (fator térmico) depois do fator de atividade. Estudo dirigido e revisão usam ainda: DRI homem <code>581,47 − 10,83I + 8,30A + 14,94P</code>, DRI mulher <code>710,25 − 7,01I + 6,54A + 12,34P</code> e FAO <code>(0,048P + 2,562) × 239</code>.</p>
+<p>Na aula: para energia diária a DRI é a mais usada; para macro e micronutrientes segue-se normalmente a FAO.</p></details>
+
+<details><summary>Carboidratos (aula da Profª Mayara)</summary>
+<p>OMS: 55 a 75% do VET, açúcares adicionados até 10%. DRI: 45 a 65%, EAR 100 g e RDA 130 g.</p>
+<p>Grupo arroz, pão, massa, batata e mandioca: 5 a 9 porções/dia (150 kcal/porção), preferindo integrais. Arroz polido (branco, refinado), integral (só remove a casca, mantém o farelo) e parboilizado (passa por gelatinização). Aveia: farinha = parte interna, flocos = grão inteiro moído, farelo = camada externa.</p>
+<p><b>CG do alimento</b> = IG × carboidrato disponível na porção ÷ 100. CG da refeição = soma das CG. Exemplo da aula: leite 3,6 (baixa), pão francês 14,94 (média), mel 1,98 (baixa), banana 11,52 (média); soma 32,04.</p>
+<p>Açúcares e doces: 110 kcal/porção, sem necessidade fisiológica; excesso associado a DCNT e cárie. Edulcorantes naturais (esteviosídeo, sorbitol, manitol, frutose, xilitol) e artificiais (sacarina, ciclamato, aspartame, acessulfame-K, sucralose). Diet: nutriente ausente, sem implicar menos calorias. Light: redução mínima de 25% de um nutriente ou das calorias.</p></details>
+
+<details><summary>Proteínas (aula)</summary>
+<p>Funções: hormônios (insulina), enzimas (tripsina), contráteis (actina, miosina), estruturais (colágeno), reserva (caseína), transporte, defesa e construção de tecidos.</p>
+<p>Balanço nitrogenado: positivo = N ingerido &gt; excretado; negativo = ingerido &lt; excretado; equilibrado = igual.</p>
+<p>Aminoácidos na aula: essenciais fenilalanina, valina, triptofano, treonina, isoleucina, metionina, lisina e leucina (FVT / TIM / LL); não essenciais ácido aspártico, ácido glutâmico, alanina, asparagina e serina (AAAAs); condicionalmente essenciais histidina, glutamina, tirosina, arginina, prolina, glicina e cisteína (HGTA / PGC). Atenção: a revisão AV1 conta 9 essenciais incluindo a histidina; na prova, siga o gabarito da questão.</p>
+<p>Animal: completa, alto valor biológico, digestibilidade acima de 95%. Vegetal: incompleta, digestibilidade de 60 a 80%, eficiência 10 a 20% menor. Leguminosas são limitantes em metionina e triptofano; cereais em lisina e treonina; arroz + feijão se complementam.</p>
+<p>Recomendações: FAO/OMS 0,75 g/kg/dia (adultos) e 10 a 15% do VET; DRI 0,8 g/kg/dia e 10 a 35% do VET. RDA de adultos: homens 56 g, mulheres 46 g; gestação e lactação 71 g. Recomendação é coletiva; necessidade é individual.</p>
+<p><b>NDPcal% ideal (OMS): 6 a 10%.</b> <b>Cal/g N de referência: 120 a 150.</b> Abaixo de 120: energia insuficiente ou teor proteico muito alto. Acima de 150: pouca proteína para a energia.</p></details>
+
+<details><summary>Metabolismo e distribuição de macros (Aula 2)</summary>
+<p>Catabolismo: quebra de moléculas, libera energia e produz ATP. Anabolismo: construção, consome ATP. 1 kcal = 4,184 kJ. Calorimetria direta: calorímetro, caro, não diz o combustível usado. Indireta: consumo de O2 e produção de CO2; QR = CO2 expirado ÷ O2 consumido.</p>
+<p>Energia metabolizável: PTN 4, CHO 4, LIP 9, álcool 7 kcal/g. Distribuição: DRI PTN 10-35%, LIP 20-35%, CHO 45-65%; OMS 10-15%, 15-30%, 55-75%; SBAN 10-12%, 20-25%, 60-70%.</p>
+<p>Fluxo normal: VET → % → kcal do macro → gramas (divide por 4 ou 9). Contra-fluxo: gramas → kcal (multiplica) → % do VET. Exemplo com g/kg: 45 kg × 1 g/kg = 45 g × 4 = 180 kcal = 9% de 2000 kcal; o restante (91%) vai para CHO e LIP.</p>
+<p>DRIs foram feitas para a população americana e canadense, por gênero e estágio de vida. A AI existe para cálcio, fibras, ômega 6 e 3 e água. Escudero formulou as leis da alimentação em 1938.</p></details>
+
+<details><summary>Macronutrientes e conversões</summary>
+<p>PTN = 4 kcal/g • CHO = 4 kcal/g • LIP = 9 kcal/g • álcool = 7 kcal/g.</p>
+<p>DRI (% do VET): CHO 45 a 65% • PTN 10 a 35% • LIP 20 a 35%.</p>
+<p>Método: kcal do macro = VET × %; gramas = kcal ÷ (4 ou 9). Quando a proteína vem em g/kg: g × 4 = kcal; % = kcal ÷ VET × 100.</p>
+<p>Termos: normo, hiper e hipo (proteica, glicídica, lipídica) conforme a proporção fique dentro, acima ou abaixo da faixa.</p></details>
+
+<details><summary>Qualidade da proteína, NDPcal% e cal/g N</summary>
+<p>Alto valor biológico: carnes, peixes, ovos, leite e derivados. Menor valor: cereais e leguminosas, que se complementam (arroz + feijão).</p>
+<p>9 aminoácidos essenciais: histidina, isoleucina, leucina, lisina, metionina, fenilalanina, treonina, triptofano e valina.</p>
+<p><b>NDPcal%:</b> proteína líquida (g de proteína × fator de NPU: cereais 0,5; leguminosas 0,6; animais 0,7) × 4 ÷ VET × 100. Se o NPU já vier dado, usa direto.</p>
+<p><b>Cal/g N:</b> N = proteína ÷ 6,25. Cal não proteicas = VET − (proteína × 4). Cal/g N = cal não proteicas ÷ N. Referência: 120 a 150 kcal/g de N.</p></details>
+
+<details><summary>Índice e carga glicêmica</summary>
+<p>IG: velocidade com que o alimento eleva a glicemia em relação a uma referência. CG = IG × carboidrato disponível na porção ÷ 100 (considera a quantidade).</p></details>
+
+<details><summary>Cardápios</summary>
+<p>Qualitativo: lista de alimentos e preparações, planejado para quem vai comer. Quantitativo: com quantidades, composição e calorias, planejado para quem vai elaborar.</p>
+<p>Distribuição calórica de adulto: desjejum 20 a 25%, almoço 35 a 40%, jantar 25 a 30%, lanches 5 a 10%.</p>
+<p>Restaurante: entrada, prato principal (maior aporte proteico), guarnição (legumes, purê, farofa), acompanhamentos (arroz e feijão), sobremesa e líquidos.</p>
+<p>Regras: variar receitas, sabores, cores e texturas; evitar frituras e embutidos; limitar doces, sal e óleo.</p>
+<p>Porções (pirâmide, 2000 kcal): pães/arroz 150 kcal, hortaliças 15, frutas 70, feijões 55, leite e derivados 120, carnes e ovos 190, óleos 73, açúcares 110.</p></details>
+
+<details><summary>Recomendações por situação (SBD 2019 e monitoras)</summary>
+<table><tr><th>Situação</th><th>CHO</th><th>PTN</th><th>LIP</th></tr>
+<tr><td>População geral</td><td>45-65%</td><td>10-35% (0,8-1,0 g/kg)</td><td>20-35%</td></tr>
+<tr><td>Diabetes</td><td>45-60% (mín. 130 g/dia)</td><td>15-20% (1-1,5 g/kg)</td><td>20-35%, saturadas até 10%, sem trans</td></tr>
+<tr><td>Emagrecimento</td><td>55-60%</td><td>15-20%</td><td>20-30%, déficit 500-1000 kcal</td></tr>
+<tr><td>Cetogênica</td><td>5-10%</td><td>15-20%</td><td>60-70%</td></tr>
+<tr><td>Hipertrigliceridemia</td><td>50-55%</td><td>15-20%</td><td>30-35% + ômega 3 (1-2 g/d)</td></tr>
+<tr><td>Hipercolesterolemia</td><td>45-60%</td><td>15%</td><td>25-35%</td></tr></table>
+<p>Diabetes: fibra 25-30 g/dia (solúvel é a mais útil); sacarose até 5-10% do VET. Hipertensão: sódio até 2 g/dia e mais potássio. Hipertrofia: CHO de 3-5 g/kg (leve) a 8-12 g/kg (muito intenso); proteína 1,4 a 2,0 g/kg conforme o treino.</p>
+<p>Low carb: moderada 26-45% (&lt;130 g), intensa &lt;26%, extrema &lt;10% (cetogênica). Jejum intermitente: o resultado vem do déficit calórico, não do jejum em si.</p></details>
+</section>
+
+<section id="sim">
+<div class="stats" id="stats"></div>
+<div id="home"><h2>Simulado estilo prova</h2><p class="sub">10 questões sorteadas do banco: 8 fechadas e 2 abertas. Cada vez muda.</p><button class="btn" id="go">Começar simulado</button><button class="btn alt" id="rst">Zerar estatísticas</button><p class="sub">As estatísticas ficam salvas neste aparelho. Questões que você errou ou viu menos vezes têm prioridade no sorteio, e os cálculos são gerados com números novos.</p></div>
+<div id="quiz"></div>
+</section>
+
+<section id="ban"><h2>Banco de questões</h2><p class="sub" id="cnt"></p><p>Treine tudo em ordem, sem sorteio:</p>
+<button class="btn alt" id="allc">Todas as fechadas</button><button class="btn alt" id="allo">Todas as abertas</button><button class="btn alt" id="gen">Gerar cálculo novo</button><button class="btn alt" id="oldp">Prova antiga</button><div id="lista"></div></section>
+
+<script>
+const MC=[
+{q:"Sobre as DRIs, é correto afirmar:",o:["Aplicam-se só a indivíduos, nunca a grupos","Compreendem cinco conceitos para consumo de nutrientes, aplicados conforme o objetivo","Não devem ser usadas com deficiência nutricional prévia","Servem apenas para avaliar consumo alimentar de indivíduos","Valem tanto para saudáveis quanto para enfermos"],a:2,s:"Revisão AV1 • Q1",e:"Gabarito: C."},
+{q:"Numere a 2ª coluna pela 1ª: (1) RDA (2) EAR (3) UL. ( ) atende 50% dos saudáveis do grupo ( ) atende 97 a 98% ( ) maior ingestão contínua sem risco à saúde",o:["1-2-3","3-2-1","2-3-1","2-1-3","3-1-2"],a:3,s:"Revisão AV1 • Q2",e:"EAR = 50%, RDA = 97-98%, UL = limite superior: 2-1-3."},
+{q:"I. A RDA é usada para planejar dieta de indivíduos saudáveis. II. A EAR substitui a RDA na prescrição para grupos com doenças crônicas. III. A RDA é base para estabelecer a AI quando não há evidência para a EAR.",o:["Apenas o item I está certo","Apenas I e II estão certos","Apenas II e III estão certos","Todos estão certos"],a:0,s:"Revisão AV1 • Q3",e:"II errado (EAR estima necessidade média de grupo). III errado: sem evidência para EAR usa-se a AI, que não parte da RDA."},
+{q:"Além do Gasto Energético Basal (GEB), formam o GET:",o:["efeito térmico dos eletrólitos e termogênese por atividade","efeito térmico do ambiente e termogênese por atividade","efeito térmico do alimento e termogênese por atividade","efeito térmico do ambiente e termogênese de repouso"],a:2,s:"Revisão AV1 • Q4",e:"Gabarito: C."},
+{q:"Qual fator diminui a taxa metabólica basal?",o:["Gênero masculino","Estados febris","Aumento da idade","Aumento da massa corpórea","Gestação"],a:2,s:"Revisão AV1 • Q5",e:"Gabarito: C."},
+{q:"Recomendação de carboidratos para adulto saudável (DRI-2002), em % do VET:",o:["45 a 65","20 a 35","55 a 75","15 a 20","45 a 70"],a:0,s:"Revisão AV1 • Q6",e:"Gabarito: A."},
+{q:"A fórmula de Harris-Benedict para o GEB utiliza:",o:["sexo, altura, peso e idade","albumina sérica, sexo, altura e peso","doença de base, sexo e peso","fator injúria, sexo e peso","fator injúria, idade e sexo"],a:0,s:"Revisão AV1 • Q7",e:"Gabarito: A."},
+{q:"I. Alto valor biológico = aminoácidos essenciais e baixa digestibilidade. II. Feijão e soja têm proteínas de baixo valor biológico. III. Proteínas de baixo valor biológico não têm aminoácidos essenciais. IV. Carnes, ovos e leite têm proteínas de alto valor biológico. Está correto apenas:",o:["I e II","II e IV","III e IV","I, III e IV","I, II, III e IV"],a:1,s:"Revisão AV1 • Q8",e:"Gabarito: B (II e IV)."},
+{q:"Aminoácido essencial e não essencial, respectivamente:",o:["alanina e lisina","triptofano e alanina","histidina e isoleucina","metionina e glutamina"],a:1,s:"Revisão AV1 • Q9",e:"Triptofano é essencial; alanina não. Gabarito: B."},
+{q:"Os 9 aminoácidos essenciais são:",o:["Cisteína, isoleucina, leucina, lisina, ácido aspártico, fenilalanina, treonina, triptofano, valina","Arginina, isoleucina, leucina, lisina, cisteína, fenilalanina, treonina, triptofano, valina","Histidina, isoleucina, leucina, glicina, metionina, fenilalanina, treonina, tirosina, valina","Histidina, prolina, leucina, lisina, metionina, alanina, treonina, triptofano, valina","Histidina, isoleucina, leucina, lisina, metionina, fenilalanina, treonina, triptofano, valina"],a:4,s:"Revisão AV1 • Q10",e:"Gabarito: E."},
+{q:"Quanto vale 1 g de lipídio, em kcal?",o:["4","7","9","5"],a:2,s:"Resumo da aula 2",e:"PTN 4, CHO 4, LIP 9, álcool 7."},
+{q:"Na distribuição calórica de um adulto, o almoço costuma representar:",o:["5 a 10%","20 a 25%","25 a 30%","35 a 40%"],a:3,s:"Aula 2.1 (cardápios)",e:"Desjejum 20-25%, almoço 35-40%, jantar 25-30%, lanches 5-10%."},
+{q:"O efeito térmico dos alimentos representa aproximadamente:",o:["5 a 10% do GET","20 a 25% do GET","60 a 75% do GET","50% do GET"],a:0,s:"Nutricards • Aula 1",e:"É a energia gasta em digestão, absorção, metabolismo e excreção."},
+{q:"Qual lei de Escudero diz que as quantidades dos nutrientes devem guardar proporção entre si?",o:["Quantidade","Qualidade","Harmonia","Adequação"],a:2,s:"Nutricards • Aula 1",e:"Excesso de lipídeos, por exemplo, fere a Lei da Harmonia (dislipidemia)."},
+{q:"Uma dieta com 3000 kcal e 150 g de proteína tem quantas kcal por g de nitrogênio?",o:["100","37,4","24","600"],a:0,s:"Estudo dirigido • Q6a",e:"150 ÷ 6,25 = 24 g N; (3000 − 600) ÷ 24 = 100."},
+{q:"Segundo a SBD, a ingestão de carboidratos abaixo de qual valor diário não é recomendada no diabetes?",o:["50 g","130 g","200 g","300 g"],a:1,s:"Recomendações Nutricionais NHND",e:"O carboidrato é substrato para o cérebro e outros processos."},
+{q:"Qual a referência de cal/g de nitrogênio, segundo a aula de Proteínas?",o:["30 a 60","120 a 150","200 a 300","10 a 20"],a:1,s:"Proteínas (aula)",e:"Abaixo de 120: energia insuficiente ou proteína muito alta. Acima de 150: pouca proteína para a energia."},
+{q:"Um valor de 45 cal/g de nitrogênio indica:",o:["Dieta com pouca proteína","Dieta equilibrada","Energia insuficiente ou teor proteico muito alto","Excesso de carboidratos"],a:2,s:"Proteínas (aula)",e:"Está abaixo de 120."},
+{q:"As proteínas de leguminosas são limitantes em:",o:["Lisina e treonina","Metionina e triptofano","Leucina e valina","Histidina e arginina"],a:1,s:"Proteínas (aula)",e:"Cereais são limitantes em lisina e treonina; por isso arroz + feijão se complementam."},
+{q:"Fatores de NPU (PAT) para cereais, leguminosas e origem animal, respectivamente:",o:["0,7 / 0,6 / 0,5","0,5 / 0,6 / 0,7","0,6 / 0,5 / 0,7","0,5 / 0,7 / 0,6"],a:1,s:"Proteínas (aula)",e:"Cereais 0,5; leguminosas 0,6; animal 0,7."},
+{q:"NDPcal% ideal de uma dieta, segundo a OMS:",o:["1 a 3%","6 a 10%","15 a 20%","20 a 30%"],a:1,s:"Proteínas (aula)",e:"NDPcal% = kcal de proteína líquida × 100 ÷ VET."},
+{q:"Balanço nitrogenado positivo significa:",o:["Nitrogênio ingerido menor que o excretado","Nitrogênio ingerido igual ao excretado","Nitrogênio ingerido maior que o excretado","Não há excreção de nitrogênio"],a:2,s:"Proteínas (aula)",e:"Negativo é o contrário; equilibrado é ingerido = excretado."},
+{q:"Qual é um aminoácido não essencial (mnemônico AAAAs)?",o:["Valina","Lisina","Serina","Treonina"],a:2,s:"Proteínas (aula)",e:"Não essenciais: ácido aspártico, ácido glutâmico, alanina, asparagina e serina."},
+{q:"A digestibilidade da proteína animal é de cerca de:",o:["Mais de 95%","60 a 80%","30 a 40%","Menos de 50%"],a:0,s:"Proteínas (aula)",e:"A vegetal fica entre 60 e 80%."},
+{q:"RDA de proteína para adultos de 19 a 70 anos (DRIs):",o:["Homens 46 g e mulheres 56 g","Homens 56 g e mulheres 46 g","Ambos 34 g","Ambos 71 g"],a:1,s:"Proteínas (aula)",e:"Na gestação e lactação a RDA sobe para 71 g."},
+{q:"Na DRI, para carboidratos, EAR e RDA são, respectivamente:",o:["100 g e 130 g","130 g e 100 g","45 g e 65 g","55 g e 75 g"],a:0,s:"Carboidratos (aula)",e:"A faixa DRI é 45 a 65% do VET."},
+{q:"A OMS recomenda para carboidratos e açúcares adicionados, respectivamente:",o:["45-65% e até 10% do VET","55-75% e até 10% do VET","55-75% e até 25% do VET","45-65% e até 5% do VET"],a:1,s:"Carboidratos (aula)",e:"Technical Report 916 (FAO/OMS, 2003)."},
+{q:"A carga glicêmica de um alimento é calculada por:",o:["IG × carboidrato disponível na porção ÷ 100","IG ÷ carboidrato da porção","IG + carboidrato da porção","Carboidrato × 4 ÷ VET"],a:0,s:"Carboidratos (aula)",e:"A CG da refeição é a soma das CG dos alimentos."},
+{q:"Produtos light apresentam:",o:["Ausência total de um nutriente","Redução mínima de 25% em determinado nutriente ou caloria","Somente adição de edulcorantes","Ausência de sacarose, frutose e glicose"],a:1,s:"Carboidratos (aula)",e:"Diet: nutriente ausente, sem necessariamente reduzir calorias."},
+{q:"O catabolismo é:",o:["Construção de moléculas com consumo de ATP","Degradação de moléculas com liberação de energia e produção de ATP","Excreção de nitrogênio","Armazenamento de glicose"],a:1,s:"Aula 2.1 Parte II",e:"Anabolismo é a construção, que gasta ATP."},
+{q:"1 kcal equivale a quantos quilojoules?",o:["1,0","4,184","9,0","0,239"],a:1,s:"Aula 2.1 Parte II",e:"1 kcal = 4,184 kJ."},
+{q:"VET de 2000 kcal com 20% de PTN, 50% de CHO e 30% de LIP. A dieta é:",o:["Hiperproteica","Normoproteica, normoglicídica e normolipídica","Hipoglicídica","Hiperlipídica"],a:1,s:"Aula 2.1 Parte II",e:"Todos dentro das faixas da DRI (10-35, 45-65, 20-35)."},
+{q:"Para transformar kcal em gramas de macronutriente, você:",o:["Multiplica por 4 ou 9","Divide por 4 (PTN e CHO) ou 9 (LIP)","Divide sempre por 4","Multiplica por 7"],a:1,s:"Aula 2.1 Parte II",e:"Kcal para gramas divide; gramas para kcal multiplica."},
+{q:"A AI é o valor de referência disponível para:",o:["Ferro, zinco e proteína","Cálcio, fibras, ômega 6 e 3 e água","Apenas vitaminas","Sódio e potássio"],a:1,s:"Aula 1_1",e:"Usada quando não há EAR e RDA."},
+{q:"As Leis da Alimentação foram desenvolvidas em 1938 por:",o:["Pedro Escudero","Harris e Benedict","Schofield","Philippi"],a:0,s:"Aula 1_1",e:"Quantidade, Qualidade, Harmonia e Adequação."},
+{q:"Sobre a calorimetria indireta, está correto:",o:["Mede o calor diretamente em sala calorimétrica","Estima o gasto energético pelo consumo de O2 e produção de CO2","É mais cara que a direta","Informa o calor de combustão do alimento"],a:1,s:"Aula 2.1 Parte II",e:"Tem melhor mobilidade e menor custo que a direta."},
+{q:"No planejamento de cardápios alguns fatores são imprescindíveis:",o:["Condições econômicas, hábitos alimentares, harmonia e variedade, temperatura adequada","Condições econômicas, exigências nutricionais, variedade, peso, idade","Condições econômicas, hábitos alimentares, exigências nutricionais, composição do alimento","Condições econômicas, hábitos alimentares, exigências nutricionais, harmonia e variedade","Condições econômicas, hábitos alimentares, harmonia, peso e idade"],a:3,s:"Prova antiga • Q3",e:"Resposta pelo conteúdo de planejamento de cardápios (economia, hábitos, exigências nutricionais, harmonia e variedade). O gabarito oficial não aparece na foto."},
+{q:"Calcule o NDPcal% do cardápio (VET 2000 kcal) e diga se está adequado. Cereais: centeio 2,0 g e arroz 4,5 g. Leguminosas: feijão preto 4,5 g e feijão verde 3,0 g. Animais: ovos 15 g.",o:["4,00%","3,45%","3,65%","0,91%","0,81%"],a:2,s:"Prova antiga • Q4",e:"Cereais 6,5 × 0,5 = 3,25; leguminosas 7,5 × 0,6 = 4,5; ovos 15 × 0,7 = 10,5. Soma 18,25 g × 4 = 73 kcal; 73 ÷ 2000 × 100 = 3,65%. Não está adequado (ideal 6 a 10%)."},
+{q:"Qual a cal/g de nitrogênio de uma dieta com VET de 3000 kcal e 200 g de proteínas?",o:["68,75 cal/g N","100 cal/g N","45 cal/g N","53,12 cal/g N","125 cal/g N"],a:0,s:"Prova antiga • Q5",e:"N = 200 ÷ 6,25 = 32 g; 200 × 4 = 800; 3000 − 800 = 2200; 2200 ÷ 32 = 68,75."},
+{q:"Verdadeiro (V) ou falso (F): (1) Alimentação é um processo voluntário de consumir alimentos. (2) Dietética é a ciência ou arte de adaptar a alimentação às necessidades dos indivíduos, na saúde e em condições fisiológicas especiais. (3) Nutrição é um processo involuntário que o organismo faz após o consumo de um alimento. (4) Recomendação é a quantidade diária suficiente para a maior parte (50%) dos indivíduos de uma população saudável. (5) Energia metabolizável: 4 kcal para proteínas, 8 para lipídeos e 6 para carboidratos.",o:["V F F V F","F F F F F","V V V V V","V V V F F","V F V F F"],a:3,s:"Prova antiga • Q6",e:"(1) V. (2) V, é a definição dos nutricards. (3) V. (4) F: são 97 a 98%, não 50%. (5) F: 4 / 9 / 4 kcal/g. Confira com a professora se o gabarito dela marcou a (2) como verdadeira."},
+{q:"Os alimentos com maior teor de ácidos graxos saturados de cadeia média e de monoinsaturados são, respectivamente:",o:["Coco e azeite de oliva","Cacau e óleo de peixe","Gordura animal e óleo de soja","Manteiga e óleo de canola"],a:0,s:"Prova antiga • Q7",e:"Coco é rico em AGS de cadeia média; azeite de oliva em monoinsaturados. Na foto só aparecem as alternativas de a) a d)."},
+{q:"Para elaboração de cardápios quantitativos, qual alternativa corresponde à lógica de montagem?",o:["Verifica as necessidades energéticas, monta os alimentos (g, L, ml e medidas caseiras), respeitando aspectos socioculturais e religiosos; adequa até 10% do planejamento de cálculo","Nenhuma das alternativas","Verifica as necessidades energéticas, monta os alimentos (g, L, ml e medidas caseiras), respeitando aspectos socioculturais e religiosos; adequa até 20% do planejamento de cálculo","Verifica as necessidades energéticas, planeja a distribuição de macronutrientes, monta os alimentos (g, L, ml e medidas caseiras), respeitando aspectos socioculturais e religiosos; adequa até 10% do planejamento de cálculo","Verifica as necessidades energéticas, distribui os macronutrientes, monta os alimentos e adequa até 10%; no quantitativo não precisa respeitar aspectos socioculturais e religiosos"],a:3,s:"Prova antiga • Q8",e:"Aula 2.1: calcular VET, distribuir macros, montar com quantidades e respeitar aspectos socioculturais. A e) erra ao dispensar o respeito sociocultural; a a) esquece a distribuição de macros; a c) usa 20%. Os 10% de adequação vêm do enunciado da prova."},
+{q:"Qual seria a cal/g de nitrogênio de uma dieta com VET de 3800 kcal e 200 g de proteínas?",o:["90,75 cal/g N","112,5 cal/g N","85 cal/g N","93,75 cal/g N","95 cal/g N"],a:3,s:"Prova antiga • Q9",e:"N = 200 ÷ 6,25 = 32 g; 3800 − 800 = 3000; 3000 ÷ 32 = 93,75."},
+{q:"Assinale a alternativa INCORRETA sobre proteínas:",o:["São aminoácidos essenciais: fenilalanina, triptofano, valina, isotreonina, isoleucina, metionina, histidina, leucina e lisina","A OMS decretou a necessidade de diminuir o consumo de proteínas de carne vermelha; nutricionistas não mais recomendam com tanta frequência","Existem dois tipos de classes de proteínas: animal, de alto valor biológico, e vegetal, de baixo valor biológico","Existem três indicadores de adequação de proteína de um cardápio: cal/g N, NDPcal% e P%"],a:0,s:"Prova antiga • Q10",e:"Isotreonina não existe: o essencial é a treonina (mnemônico FVT / TIM / LL)."}
+];
+const OP=[
+{q:"Dieta de 3000 kcal, indivíduo de 80 kg: 1,0 g/kg de proteína, até 30% de lipídeos e 40 a 60% de carboidratos. Distribua os macronutrientes.",a:"PTN: 80 g × 4 = 320 kcal → ~11% do VET.<br>CHO (60%): 1800 kcal ÷ 4 = 450 g.<br>LIP (29%): 870 kcal ÷ 9 ≈ 97 g.",s:"Estudo dirigido • Q1"},
+{q:"VET de 2000 kcal com 15% de proteína, 35% de lipídeos e 65% de carboidratos: calcule as gramas.",a:"PTN: 300 kcal ÷ 4 = 75 g.<br>LIP: 700 ÷ 9 ≈ 78 g.<br>CHO: 1300 ÷ 4 = 325 g.<br>Observação: 15+35+65 = 115%, então a distribuição não fecha 100%; vale comentar isso na prova.",s:"Estudo dirigido • Q2a"},
+{q:"VET de 2000 kcal, 1,2 g/kg de proteína, até 30% de lipídeos e até 80% de carboidratos (80 kg).",a:"PTN: 96 g × 4 = 384 kcal → 19%.<br>CHO (55%): 1100 ÷ 4 = 275 g.<br>LIP (26%): 520 ÷ 9 ≈ 58 g.",s:"Estudo dirigido • Q2c"},
+{q:"VET de 2000 kcal, 2 g/kg de proteína, até 30% de lipídeos e até 70% de carboidratos (70 kg).",a:"PTN: 140 g × 4 = 560 kcal → 28%.<br>CHO (50%): 1000 ÷ 4 = 250 g.<br>LIP (22%): 440 ÷ 9 ≈ 49 g.",s:"Estudo dirigido • Q2d"},
+{q:"Homem, 28 anos, 1,75 m, 78 kg, atividade leve (DRI). Calcule o VET e distribua: 1,0 g/kg de PTN, até 30% LIP e até 70% CHO.",a:"EER = 581,47 − (10,83×28) + (8,30×175) + (14,94×78) = 581,47 − 303,24 + 1452,5 + 1165,32 ≈ 2896 kcal (o gabarito do professor soma as partes desse jeito).<br>PTN: 78 g (312 kcal, ~11%). CHO (50%): 362 g. LIP (29%): 93 g.",s:"Estudo dirigido • Q3a"},
+{q:"Mulher, 25 anos, 1,55 m, 56 kg, atividade moderada (FAO). Calcule o VET e distribua: 1,0 g/kg de PTN, até 30% LIP e até 70% CHO.",a:"TMB = 14,818 × 56 + 486,6 ≈ 1316 kcal; × 1,70 = 2237 kcal.<br>PTN: 56 g (224 kcal, 10%). CHO (60%): ~335 g. LIP (30%): ~75 g.",s:"Estudo dirigido • Q3b"},
+{q:"Mulher, 21 anos, 1,57 m, 58 kg, atividade leve (Schofield). Calcule o VET e distribua: 1,0 g/kg de PTN, até 30% LIP e até 80% CHO.",a:"(0,062 × 58 + 2,036) × 239 ≈ 1346 kcal; × 1,69 ≈ 2275 kcal.<br>PTN: 58 g (~10%; 58 × 4 = 232 kcal). CHO (60%): ~341 g. LIP (30%): ~76 g.",s:"Estudo dirigido • Q3c"},
+{q:"Calcule o NDPcal% (VET 3000 kcal). Cardápio: arroz 9,0 g, feijão 6,3 g, filé de frango 16,3 g de proteína.",a:"Arroz 9,0 × 0,5 = 4,5; feijão 6,3 × 0,6 = 3,78; frango 16,3 × 0,7 = 11,41. Soma = 19,69 g × 4 = 78,76 kcal.<br>78,76 ÷ 3000 × 100 ≈ 2,62%.",s:"Estudo dirigido • Q5 cardápio 1"},
+{q:"Calcule o NDPcal% (VET 3000 kcal): arroz 7,0 g e milho 4,0 g; feijão 8,4 g e grão-de-bico 9,4 g; ovo 36 g de proteína.",a:"Cereais: 11 × 0,5 = 5,5. Leguminosas: 17,8 × 0,6 = 10,68. Ovo: 36 × 0,7 = 25,2. Soma = 41,38 g × 4 = 165,52 kcal.<br>165,52 ÷ 3000 × 100 ≈ 5,51%.",s:"Estudo dirigido • Q5 cardápio 2"},
+{q:"Dieta com 3000 kcal e 300 g de proteína: calcule cal/g de nitrogênio e diga se a concentração de proteína é alta ou baixa.",a:"N = 300 ÷ 6,25 = 48 g. Cal não proteicas = 3000 − 1200 = 1800.<br>1800 ÷ 48 = 37,5 kcal/g N → dieta com alta concentração de proteína.",s:"Estudo dirigido • Q6b"},
+{q:"Diferencie dieta, dietética, nutrição e alimentação.",a:"Dieta: conjunto de alimentos e bebidas consumidos habitualmente. Dietética: aplicar a nutrição no planejamento de dietas adequadas a necessidades individuais ou coletivas. Nutrição: processo involuntário de obter, utilizar e aproveitar os nutrientes. Alimentação: ato voluntário de escolher, preparar e consumir alimentos.",s:"Atividade de revisão • Q1"},
+{q:"Defina EAR, RDA, AI e UL.",a:"EAR: necessidade média estimada, atende 50% dos saudáveis do grupo. RDA: atende 97 a 98%. AI: usada quando não há evidência para estabelecer a RDA. UL: nível máximo tolerado, maior ingestão média diária sem risco de efeitos adversos para a maioria.",s:"Atividade de revisão • Q2"},
+{q:"O que é o VET e o que se considera para determiná-lo?",a:"Valor Energético Total: energia que a dieta deve fornecer. Considera idade, sexo, peso, estatura, nível de atividade física, estado fisiológico (gestação, lactação, crescimento, envelhecimento) e condições clínicas.",s:"Atividade de revisão • Q3"},
+{q:"Cite os passos do planejamento dietético, do VET ao cardápio.",a:"1) Determinar o VET. 2) Distribuir o VET entre os macronutrientes. 3) Calcular gramas de CHO, PTN e LIP. 4) Distribuir entre as refeições. 5) Planejar alimentos e preparações. 6) Verificar a adequação nutricional.",s:"Atividade de revisão • Q4"},
+{q:"Determine o VET de uma mulher de 25 anos, 1,50 m e 45 kg, atividade moderada (fator 1,6), pela FAO e pela DRI.",a:"FAO: (0,048 × 45 + 2,562) × 239 = 1128,56; × 1,6 ≈ 1806 kcal.<br>DRI: 710,25 − 175,25 + 981 + 555,30 ≈ 2071 kcal.",s:"Atividade de revisão • Q6"},
+{q:"Diferencie proteínas de alto e de menor valor biológico, com exemplos.",a:"Alto valor: perfil de aminoácidos essenciais mais adequado ao humano; carnes, peixes, aves, ovos, leite e derivados. Menor valor: algum aminoácido essencial limitante; cereais e leguminosas. A combinação melhora o perfil, como arroz + feijão.",s:"Atividade de revisão • Q7"},
+{q:"Explique P%, NDPcal% e cal/g de nitrogênio.",a:"P%: quanto do VET vem da proteína. NDPcal%: percentual das calorias fornecidas pela proteína líquida (efetivamente utilizada) em relação ao VET. Cal/g N: relação entre calorias não proteicas e nitrogênio, indica se a proteína da dieta está adequada ao restante da energia.",s:"Atividade de revisão • Q8"},
+{q:"Calcule o NDPcal% (VET 2000 kcal): arroz 4,5 g; feijão e grão-de-bico 8,4 g; frango e carne 25,7 g de proteína.",a:"4,5 × 0,5 = 2,25; 8,4 × 0,6 = 5,04; 25,7 × 0,7 = 17,99. Soma = 25,28 g × 4 = 101,12 kcal.<br>101,12 ÷ 2000 × 100 ≈ 5,06%.",s:"Atividade de revisão • Q9"},
+{q:"Calcule o NDPcal% (VET 2000 kcal): centeio e arroz 6,5 g; feijão preto e verde 7,5 g; ovo 35 g de proteína.",a:"6,5 × 0,5 = 3,25; 7,5 × 0,6 = 4,5; 35 × 0,7 = 24,5. Soma = 32,25 g × 4 = 129 kcal.<br>129 ÷ 2000 × 100 = 6,45%.",s:"Atividade de revisão • Q10"},
+{q:"Dieta de 2000 kcal com 200 g de proteína: calcule cal/g N e classifique.",a:"N = 200 ÷ 6,25 = 32 g. Cal não proteicas = 2000 − 800 = 1200. 1200 ÷ 32 = 37,5 kcal/g N.<br>Inadequado: alta concentração de proteína para o VET.",s:"Atividade de revisão • Q11"},
+{q:"Dieta de 3000 kcal com 160 g de proteína: calcule cal/g N e classifique.",a:"N = 160 ÷ 6,25 = 25,6 g. Cal não proteicas = 3000 − 640 = 2360. 2360 ÷ 25,6 ≈ 92 kcal/g N.<br>O gabarito da professora classifica como adequado (92,5). Pela referência da aula de Proteínas (120 a 150), ficaria abaixo de 120; confirme com ela qual critério vale.",s:"Atividade de revisão • Q12"},
+{q:"Diferencie índice glicêmico (IG) e carga glicêmica (CG).",a:"IG: velocidade com que o alimento eleva a glicemia em relação a uma referência. CG = IG × carboidrato disponível da porção ÷ 100; considera também a quantidade consumida. O IG depende de fibras, gordura, proteína, processamento e preparo.",s:"Atividade de revisão • Q13"},
+{q:"Explique balanço energético positivo, negativo e equilibrado.",a:"Positivo: ingestão maior que gasto, pode aumentar as reservas. Negativo: ingestão menor que gasto, reduz reservas. Equilibrado: ingestão aproximadamente igual ao gasto.",s:"Atividade de revisão • Q14"},
+{q:"Diferencie prato principal, guarnição e acompanhamento.",a:"Prato principal: preparação de maior aporte proteico (carne, frango, peixe). Guarnição: acompanha o principal e o complementa (legumes, purê, farofa, massas). Acompanhamento: arroz e feijão.",s:"Atividade de revisão • Q15"},
+{q:"Quais as faixas de macronutrientes recomendadas para o diabetes e por que não se recomenda menos de 130 g de carboidrato por dia?",a:"CHO 45 a 60% do VET, PTN 15 a 20% (1 a 1,5 g/kg) e LIP 20 a 35% (saturadas até 10%, sem trans). Abaixo de 130 g/dia não é recomendado porque o carboidrato é substrato energético importante para o cérebro e outros processos metabólicos (SBD, 2019).",s:"Recomendações Nutricionais NHND"},
+{q:"Harris-Benedict: homem, 43 anos, 1,80 m, 80 kg, atividade intensa (2,0). Calcule o GET.",a:"TMB = 66,5 + 13,8×80 + 5×180 − 6,8×43 = 66,5 + 1104 + 900 − 292,4 = 1778,1.<br>× 2,0 = 3556,2; × 1,1 (fator usado na aula) = 3911,82 kcal.",s:"Aula 2.1 Parte II • Harris-Benedict"},
+{q:"Harris-Benedict: mulher, 34 anos, 1,70 m, 70 kg, sedentária (1,40). Calcule o GET.",a:"TMB = 655,1 + 9,6×70 + 1,8×170 − 4,7×34 = 655,1 + 672 + 306 − 159,8 = 1473,3.<br>× 1,40 = 2062,62; × 1,1 = 2268,8 kcal.",s:"Aula 2.1 Parte II • Harris-Benedict"},
+{q:"FAO/OMS: homem, 22 anos, 72 kg, atividade moderada (1,99). Calcule o GET.",a:"TMB = 15,057 × 72 + 692,2 = 1776,3.<br>GET = 1776,3 × 1,99 ≈ 3534,8 kcal.",s:"Aula 2.1 Parte II • FAO"},
+{q:"FAO/OMS: mulher, 20 anos, 80 kg, atividade ativa (1,70). Calcule o GET.",a:"TMB = 14,818 × 80 + 486,6 = 1672,04.<br>GET = 1672,04 × 1,70 ≈ 2842,46 kcal.",s:"Aula 2.1 Parte II • FAO"},
+{q:"Schofield: mulher, 30 anos, 65 kg, atividade leve (1,69). Calcule o GET.",a:"TMB = (0,034 × 65 + 3,538) × 239 = 5,748 × 239 = 1373,77.<br>GET = 1373,77 × 1,69 ≈ 2321,67 kcal.",s:"Aula 2.1 Parte II • Schofield"},
+{q:"Schofield: homem, 40 anos, 85 kg, atividade intensa (2,0). Calcule o GET.",a:"TMB = (0,048 × 85 + 3,653) × 239 = 7,733 × 239 = 1848,18.<br>GET = 1848,18 × 2,0 ≈ 3696,37 kcal.",s:"Aula 2.1 Parte II • Schofield"},
+{q:"Henry &amp; Rees: homem, 30 anos, 60 kg, atividade moderada (1,99). Calcule o GET.",a:"TMB = (0,046 × 60 + 3,160) × 239 = 5,92 × 239 = 1414,88.<br>GET = 1414,88 × 1,99 ≈ 2815,6 kcal.",s:"Aula 2.1 Parte II • Henry & Rees"},
+{q:"Henry &amp; Rees: homem, 57 anos, 80 kg, sedentário (1,4). Calcule o GET.",a:"TMB = (0,046 × 80 + 3,160) × 239 = 6,84 × 239 = 1634,76.<br>GET = 1634,76 × 1,4 ≈ 2288,6 kcal.",s:"Aula 2.1 Parte II • Henry & Rees"},
+{q:"DRI 2023: mulher, 34 anos, 1,58 m, 78 kg, atividade leve. EER = 575,77 − 7,01×I + 6,60×A + 12,14×P.",a:"575,77 − 238,34 + 1042,8 + 946,92 = 2327,15 kcal.",s:"Aula 2.1 Parte II • DRI 2023"},
+{q:"DRI 2023: homem, 27 anos, 1,90 m, 60 kg, atividade intensa. EER = −517,88 − 10,83×I + 15,61×A + 19,11×P.",a:"−517,88 − 292,41 + 2965,9 + 1146,6 = 3302,21 kcal.",s:"Aula 2.1 Parte II • DRI 2023"},
+{q:"Distribua os macros de um VET de 2500 kcal com 40% de PTN, 30% de LIP e 30% de CHO.",a:"PTN: 1000 kcal ÷ 4 = 250 g.<br>LIP: 750 ÷ 9 ≈ 83,3 g.<br>CHO: 750 ÷ 4 = 187,5 g.",s:"Aula 2.1 Parte II"},
+{q:"Distribua os macros de um VET de 3500 kcal com 30% de PTN, 15% de LIP e 55% de CHO.",a:"PTN: 1050 ÷ 4 = 262,5 g.<br>LIP: 525 ÷ 9 ≈ 58,3 g.<br>CHO: 1925 ÷ 4 = 481,25 g.",s:"Aula 2.1 Parte II"},
+{q:"Distribua os macros de um VET de 2000 kcal com 20% de PTN, 10% de LIP e 70% de CHO.",a:"PTN: 400 ÷ 4 = 100 g.<br>LIP: 200 ÷ 9 ≈ 22,2 g.<br>CHO: 1400 ÷ 4 = 350 g.",s:"Aula 2.1 Parte II"},
+{q:"Dieta de 2500 kcal, 70 kg, proteína de 1,0 g/kg, LIP até 30%. Distribua.",a:"PTN: 70 g × 4 = 280 kcal → 11% (2500 = 100%).<br>Sobram 89% para CHO e LIP. LIP 30%: 750 ÷ 9 ≈ 83,3 g. CHO 59%: 1475 ÷ 4 = 368,75 g.",s:"Aula 2.1 Parte II"},
+{q:"Dieta de 3500 kcal, 75 kg, proteína de 2,0 g/kg, LIP até 30%. Distribua.",a:"PTN: 150 g × 4 = 600 kcal → ~17,1%.<br>LIP 30%: 1050 kcal ÷ 9 ≈ 116,7 g. CHO (restante ~52,9%): 1850 ÷ 4 = 462,5 g.<br>Resolução seguindo o método da aula (LIP fixado em 30%).",s:"Aula 2.1 Parte II"},
+{q:"Dieta de 2000 kcal, 80 kg, proteína de 1,3 g/kg, LIP até 30%. Distribua.",a:"PTN: 104 g × 4 = 416 kcal → 20,8%.<br>LIP 30%: 600 ÷ 9 ≈ 66,7 g. CHO (restante ~49,2%): 984 ÷ 4 = 246 g.<br>Resolução seguindo o método da aula (LIP fixado em 30%).",s:"Aula 2.1 Parte II"},
+{q:"Calcule cal/g de nitrogênio: dieta de 2500 kcal com 100 g de proteína. Classifique.",a:"N = 100 ÷ 6,25 = 16 g. Cal não proteicas = 2500 − 400 = 2100.<br>2100 ÷ 16 = 131,25 kcal/g N: dentro da referência (120 a 150).",s:"Proteínas (aula)"},
+{q:"Calcule cal/g de nitrogênio: dieta de 2600 kcal com 300 g de proteína. Classifique.",a:"N = 300 ÷ 6,25 = 48 g. Cal não proteicas = 2600 − 1200 = 1400.<br>1400 ÷ 48 ≈ 29,2 kcal/g N: abaixo de 120, energia insuficiente ou teor proteico muito alto.",s:"Proteínas (aula)"},
+{q:"Calcule cal/g de nitrogênio: (a) 2300 kcal com 200 g de proteína; (b) 2400 kcal com 100 g.",a:"(a) N = 32 g; 2300 − 800 = 1500; 1500 ÷ 32 ≈ 46,9 (abaixo de 120).<br>(b) N = 16 g; 2400 − 400 = 2000; 2000 ÷ 16 = 125 (dentro de 120 a 150).",s:"Proteínas (aula)"},
+{q:"Calcule o NDPcal% (VET 2000 kcal): animal 49,7 g, leguminosas 4,3 g e cereais 12,4 g de proteína bruta. O resultado está adequado?",a:"Animal 49,7 × 0,7 = 34,79; leguminosas 4,3 × 0,6 = 2,58; cereais 12,4 × 0,5 = 6,20. Soma = 43,57 g × 4 = 174,28 kcal.<br>174,28 ÷ 2000 × 100 = 8,71%: dentro do ideal da OMS (6 a 10%).",s:"Proteínas (aula)"},
+{q:"NDPcal% (VET 2000 kcal): arroz 5,0 g; lentilha 4 g e feijão 3,0 g; filé de frango 20 g e carne 25 g de proteína.",a:"Cereais 5,0 × 0,5 = 2,5; leguminosas 7,0 × 0,6 = 4,2; animal 45 × 0,7 = 31,5. Soma = 38,2 g × 4 = 152,8 kcal.<br>152,8 ÷ 2000 × 100 = 7,64%.",s:"Proteínas (aula)"},
+{q:"NDPcal% (VET 4000 kcal): arroz 3,0 g; grão-de-bico 4 g e feijão 3,0 g; frango 20 g e peixe 10 g de proteína.",a:"Cereais 3,0 × 0,5 = 1,5; leguminosas 7,0 × 0,6 = 4,2; animal 30 × 0,7 = 21. Soma = 26,7 g × 4 = 106,8 kcal.<br>106,8 ÷ 4000 × 100 = 2,67%: abaixo do ideal (6 a 10%).",s:"Proteínas (aula)"},
+{q:"Calcule a carga glicêmica de: leite (120 g, 12 g de CHO, IG 30), pão francês (30 g, 18 g de CHO, IG 83), mel (5 g, 3,6 g de CHO, IG 55) e banana (120 g, 24 g de CHO, IG 48). Some a refeição.",a:"Leite: 12 × 30 ÷ 100 = 3,6 (baixa). Pão: 18 × 83 ÷ 100 = 14,94 (média). Mel: 3,6 × 55 ÷ 100 = 1,98 (baixa). Banana: 24 × 48 ÷ 100 = 11,52 (média).<br>CG da refeição = 32,04.",s:"Carboidratos (aula)"},
+{q:"Compare proteína animal e vegetal e explique como o arroz com feijão resolve o limite da proteína vegetal.",a:"Animal: completa, alto valor biológico, digestibilidade acima de 95%. Vegetal: incompleta (algum aminoácido essencial limitante), digestibilidade de 60 a 80%, eficiência de 10 a 20% menor. Leguminosas são limitantes em metionina e triptofano; cereais em lisina e treonina. Juntos, se complementam e cobrem os essenciais.",s:"Proteínas (aula)"},
+{q:"Diferencie arroz polido, integral e parboilizado.",a:"Polido: arroz branco, refinado, menos nutritivo. Integral: remove só a casca e mantém o farelo, mais nutritivo. Parboilizado: passa por cozimento (gelatinização) antes.",s:"Carboidratos (aula)"},
+{q:"Diferencie produto diet e light e cite edulcorantes naturais e artificiais.",a:"Diet: algum nutriente ausente, sem implicar redução de calorias. Light: redução mínima de 25% de um nutriente ou das calorias. Naturais: esteviosídeo, sorbitol, manitol, frutose, xilitol. Artificiais: sacarina, ciclamato, aspartame, acessulfame-K, sucralose.",s:"Carboidratos (aula)"},
+{q:"Diferencie catabolismo e anabolismo e explique calorimetria direta e indireta.",a:"Catabolismo: degrada moléculas, libera energia e produz ATP. Anabolismo: constrói moléculas e consome ATP. Direta: mede o calor em sala calorimétrica, cara e não informa o combustível. Indireta: estima o gasto pelo consumo de O2 e produção de CO2 (QR = CO2 expirado ÷ O2 consumido).",s:"Aula 2.1 Parte II"},
+{q:"Distribua todos os macronutrientes de uma dieta de VET 2000 kcal, atendendo a recomendação de 2,0 g/kg, aproximadamente 50-70% de CHO e até 30% de LIP, para um paciente de 80 kg.",a:"PTN: 80 × 2 = 160 g × 4 = 640 kcal → 32% do VET (atenção: 640 é kcal, não gramas).<br>Sobram 68%. CHO 50% = 1000 kcal ÷ 4 = 250 g. LIP 18% = 360 kcal ÷ 9 = 40 g.<br>Resposta: PTN 32% (160 g), CHO 50% (250 g), LIP 18% (40 g). Com LIP em 30% o CHO cairia para 38%, fora da faixa de 50-70%.",s:"Prova antiga • Q1"},
+{q:"Calcule o VET e os macronutrientes: homem, 28 anos, 1,75 m, 78 kg, atividade leve (1,40), segundo a DRI: 581,47 − (10,83 × idade) + (8,30 × altura) + (14,94 × peso). Depois distribua com 1,0 g/kg de proteína, até 30% de lipídeos e até 70% de carboidratos.",a:"581,47 − 303,24 + 1452,5 + 1165,32 = 2896,05 kcal (mesma resolução do estudo dirigido).<br>PTN: 78 g × 4 = 312 kcal → 10,8%. LIP 30%: 868,8 kcal ÷ 9 ≈ 96,5 g. CHO (restante 59,2%): 1715 kcal ÷ 4 ≈ 429 g.<br>Atenção: o enunciado cita o fator 1,40. Pergunte à professora se ele multiplica o resultado (daria ≈ 4054 kcal); no estudo dirigido ela usou 2896 sem fator.",s:"Prova antiga • Q2"}
+];
+const $=s=>document.querySelector(s);
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{document.querySelectorAll('nav button').forEach(x=>x.classList.toggle('on',x===b));document.querySelectorAll('section').forEach(s=>s.classList.toggle('on',s.id===b.dataset.t));scrollTo(0,0)});
+$('#cnt').textContent=MC.length+' questões fechadas e '+OP.length+' abertas no banco, mais cálculos gerados com números novos.';
+const shuf=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
+const KEY='nnd_av1_v1';let st={n:0,ok:0,sims:0,seen:{},bad:{}};
+try{const s=JSON.parse(localStorage.getItem(KEY));if(s&&typeof s.n==='number')st=Object.assign(st,s)}catch(e){}
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(st))}catch(e){}};
+function renderStats(){const p=st.n?Math.round(st.ok/st.n*100):0;const e=st.n?100-p:0;$('#stats').innerHTML=[[st.n,'respondidas'],[p+'%','acertos'],[e+'%','erros'],[st.sims,'simulados']].map(([a,b])=>'<div class="stat"><b>'+a+'</b><span>'+b+'</span></div>').join('')}
+function rec(id,v){st.n++;st.ok+=v;st.seen[id]=(st.seen[id]||0)+1;if(v<1)st.bad[id]=(st.bad[id]||0)+(1-v);save();renderStats()}
+function pick(arr,k,pre){return arr.map((x,i)=>({x,w:(st.seen[pre+i]||0)-(st.bad[pre+i]||0)*.7+Math.random()*1.6})).sort((a,b)=>a.w-b.w).slice(0,k).map(o=>o.x)}
+const R=(a,b,s=1)=>a+s*Math.floor(Math.random()*((b-a)/s+1));
+const f=(x,d=1)=>x.toFixed(d).replace('.',',');
+function gen(){const t=R(0,2),vet=R(1800,3200,100);
+if(t===0){const p=R(50,95,5),g=[0.8,1,1.2,1.5][R(0,3)],l=[25,30][R(0,1)],pk=p*g*4,lk=vet*l/100,ck=vet-pk-lk;
+return{id:'g',s:'Cálculo gerado • distribuição',q:`VET de ${vet} kcal, indivíduo de ${p} kg, proteína de ${g} g/kg e ${l}% de lipídeos. Calcule PTN (g e %), LIP (g) e CHO (g e %).`,a:`PTN: ${f(p*g)} g × 4 = ${f(pk)} kcal → ${f(pk/vet*100)}%.<br>LIP: ${f(lk)} kcal ÷ 9 = ${f(lk/9)} g.<br>CHO: ${f(ck)} kcal (${f(ck/vet*100)}%) ÷ 4 = ${f(ck/4)} g.`}}
+if(t===1){const pr=R(60,250,10),N=pr/6.25,np=vet-pr*4;
+return{id:'g',s:'Cálculo gerado • cal/g de nitrogênio',q:`Dieta com ${vet} kcal e ${pr} g de proteína: calcule as kcal por g de nitrogênio.`,a:`N = ${pr} ÷ 6,25 = ${f(N)} g. Calorias não proteicas = ${vet} − ${pr*4} = ${np}.<br>Cal/g N = ${np} ÷ ${f(N)} = ${f(np/N)}.<br>Referência da aula: 120 a 150. Abaixo de 120: energia insuficiente ou teor proteico muito alto. Acima de 150: pouca proteína para a energia.`}}
+const c=R(4,12,.5),l=R(4,12,.5),an=R(10,40,.5),liq=c*.5+l*.6+an*.7;
+return{id:'g',s:'Cálculo gerado • NDPcal%',q:`Calcule o NDPcal% (VET ${vet} kcal): cereais ${f(c)} g, leguminosas ${f(l)} g e proteína animal ${f(an)} g de proteína.`,a:`Cereais ${f(c)} × 0,5 = ${f(c*.5,2)}; leguminosas ${f(l)} × 0,6 = ${f(l*.6,2)}; animal ${f(an)} × 0,7 = ${f(an*.7,2)}. Soma = ${f(liq,2)} g × 4 = ${f(liq*4,2)} kcal.<br>${f(liq*4,2)} ÷ ${vet} × 100 = ${f(liq*4/vet*100,2)}%.`}}
+OP.forEach((o,i)=>o.id='o'+i);MC.forEach((m,i)=>m.id='m'+i);
+let pts=0,tot=0,pend=0;
+function mcEl(m,i,cb){const d=document.createElement('div');d.className='q';d.innerHTML='<div class="src">'+m.s+'</div><p><b>'+(i+1)+'.</b> '+m.q+'</p>';let done=false;
+m.o.forEach((t,k)=>{const b=document.createElement('button');b.className='opt';b.textContent='ABCDE'[k]+') '+t;b.onclick=()=>{if(done)return;done=true;rec(m.id,k===m.a?1:0);[...d.querySelectorAll('.opt')].forEach((x,j)=>{if(j===m.a)x.classList.add('right')});if(k!==m.a)b.classList.add('wrong');const e=document.createElement('div');e.className='exp';e.textContent=(k===m.a?'Correto. ':'Errado. ')+m.e;d.appendChild(e);cb&&cb(k===m.a)};d.appendChild(b)});return d}
+function opEl(o,i,cb){const d=document.createElement('div');d.className='q';d.innerHTML='<div class="src">'+o.s+' • aberta</div><p><b>'+(i+1)+'.</b> '+o.q+'</p><textarea aria-label="Sua resposta" placeholder="Escreva sua resposta e depois compare com o gabarito"></textarea>';
+const b=document.createElement('button');b.className='btn alt';b.textContent='Ver gabarito';b.onclick=()=>{b.remove();const g=document.createElement('div');g.className='gab';g.innerHTML='<b>Gabarito:</b><br>'+o.a+'<div style="margin-top:8px">Como foi a sua resposta?</div>';
+[['Acertei',1],['Parcial',.5],['Errei',0]].forEach(([t,v])=>{const x=document.createElement('button');x.className='btn alt';x.textContent=t;x.onclick=()=>{g.querySelectorAll('.btn').forEach(y=>y.disabled=true);rec(o.id,v);cb&&cb(v)};g.appendChild(x)});d.appendChild(g)};d.appendChild(b);return d}
+function done(){st.sims++;save();renderStats();const q=$('#quiz');const r=document.createElement('div');r.className='q';r.innerHTML='<h2>Resultado</h2><div class="big">'+pts+' / '+tot+'</div><p>Fechadas e abertas somadas (nas abertas, conforme sua autoavaliação).</p>';const b=document.createElement('button');b.className='btn';b.textContent='Novo simulado';b.onclick=start;r.appendChild(b);q.appendChild(r);r.scrollIntoView({behavior:'smooth'})}
+function start(){$('#home').style.display='none';const q=$('#quiz');q.innerHTML='';pts=0;tot=10;pend=10;
+const step=()=>{if(--pend===0)done()};
+const items=[...pick(MC,8,'m').map(m=>({t:'m',m})),...pick(OP,1,'o').map(o=>({t:'o',o})),{t:'o',o:gen()}];
+items.forEach((it,i)=>q.appendChild(it.t==='m'?mcEl(it.m,i,ok=>{if(ok)pts++;step()}):opEl(it.o,i,v=>{pts+=v;step()})));scrollTo(0,0)}
+$('#go').onclick=start;
+$('#gen').onclick=()=>{const l=$('#lista');l.appendChild(opEl(gen(),l.children.length))};
+$('#oldp').onclick=()=>{const l=$('#lista');l.innerHTML='';[...OP,...MC].filter(x=>x.s.startsWith('Prova antiga')).forEach((x,i)=>l.appendChild(x.o?mcEl(x,i):opEl(x,i)))};
+let arm=0;$('#rst').onclick=e=>{if(!arm){arm=1;e.target.textContent='Toque de novo para zerar';setTimeout(()=>{arm=0;e.target.textContent='Zerar estatísticas'},4000);return}st={n:0,ok:0,sims:0,seen:{},bad:{}};save();renderStats();arm=0;e.target.textContent='Zerar estatísticas'};
+renderStats();
+$('#allc').onclick=()=>{const l=$('#lista');l.innerHTML='';MC.forEach((m,i)=>l.appendChild(mcEl(m,i)))};
+$('#allo').onclick=()=>{const l=$('#lista');l.innerHTML='';OP.forEach((o,i)=>l.appendChild(opEl(o,i)))};
+</script></main></body></html>
